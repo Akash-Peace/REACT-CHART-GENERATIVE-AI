@@ -5,7 +5,7 @@
     <span><strong>Convert chart image to custom charts (BETA)</strong></span>
     <br />
     <br />
-    <a href="https://chart-customizer.web.app/">View Webapp</a>
+    <a href="https://chart-to-image.web.app/">View Webapp</a>
     ·
     <a href="https://github.com/Akash-Peace/REACT-CHART-GENERATIVE-AI/issues">Report Bug</a>
     ·
@@ -18,12 +18,12 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#use-cases">Use Cases</a></li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#powered-by">Powered By</a></li>
     <li><a href="#frontend-technology">Frontend Technology</a></li>
     <li><a href="#backend-technology">Backend Technology</a></li>
     <li><a href="#advancements-in-multimedia-processing">Advancements in Multimedia Processing</a></li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#development-environment">Development Environment</a></li>
@@ -35,6 +35,13 @@
 ## About The Project
 
 Image to Chart is a web application that allows users to upload chart image and convert them into fully customizable charts. The uploaded image is analyzed using generative AI to extract the underlying data, which is then utilized to recreate the chart. The application currently supports three chart types: Column, Bar, and Line charts. Users can edit the chart's x-axis and legends, as well as further enhance and personalize the chart with a wide range of customization options.
+
+<!-- USAGE EXAMPLES -->
+## Use Cases
+
+* Customize online chart images: Tailor existing chart images with a wide range of configurable options.
+* Enhance hand-drawn charts: Refine and improve charts captured from photographs or existing images.
+* Generate versatile charts: Convert images into customizable charts and easily capture screenshots for various uses.
 
 ## Built With
 
@@ -71,7 +78,7 @@ Image to Chart is a web application that allows users to upload chart image and 
 
 ## Advancements in Multimedia Processing
 
-OpenCV was my go-to tool in my past couple of projects focused on media extraction, I used it extensively for all my image and video processing needs. However for my current project centered on image data extraction, Generative AI has proven to be a game changer.
+[OpenCV](https://opencv.org/) was my go-to tool in my past couple of projects focused on media extraction, I used it extensively for all my image and video processing needs. However for my current project centered on image data extraction, Generative AI has proven to be a game changer.
 
 * There is no longer a need to write complex code for reading, processing, filtering, and tuning images.
 * Traditional algorithmic analysis to achieve context-based data extraction is no longer required.
@@ -82,16 +89,9 @@ OpenCV was my go-to tool in my past couple of projects focused on media extracti
 
 While generative AI has transformed my approach to media data extraction but OpenCV remains a valuable tool, particularly for foundational image processing tasks and real-time applications that require precise algorithmic control.
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-* Customize online chart images: Tailor existing chart images with a wide range of configurable options.
-* Enhance hand-drawn charts: Refine and improve charts captured from photographs or existing images.
-* Generate versatile charts: Convert images into customizable charts and easily capture screenshots for various uses.
-
 ## Screenshots
 
-View [Screenshots](https://github.com/Akash-Peace/REACT-CHART-GENERATIVE-AI/Screenshots) here.
+View [Screenshots](https://github.com/Akash-Peace/REACT-CHART-GENERATIVE-AI/tree/main/Screenshots) here.
 
 <!-- LICENSE -->
 ## License
