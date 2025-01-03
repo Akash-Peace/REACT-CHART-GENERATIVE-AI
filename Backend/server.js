@@ -13,7 +13,7 @@ dotenv.config();
 const port = process.env.PORT;
 const app = express();
 const corsOptions = process.env.NODE_ENV === 'production' ? {
-  origin: 'https://your-frontend.com', // need to update the prod cors
+  origin: 'https://image-to-chart.web.app/',
   methods: ['POST'],
   credentials: true
 } : {
