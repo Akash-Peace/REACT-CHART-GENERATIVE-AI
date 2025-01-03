@@ -1,0 +1,36 @@
+.Chart {
+  text-align: center;
+}
+
+.card-container {
+  margin: 30px 20px;
+  padding: 20px 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  position: relative;
+  width: auto;
+  height: 50vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 5px;
+}
+
+.card-header {
+  display: flex; 
+  position: absolute; 
+  padding: 0px 10px;
+  gap: 15px;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 50px;
+  backdrop-filter: blur(5px);
+
+  h3 {
+    margin: 5px 0px;
+  }
+}
+
+.hc-container {
+  height: 100%;
+}

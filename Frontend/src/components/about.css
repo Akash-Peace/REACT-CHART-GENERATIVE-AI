@@ -1,0 +1,22 @@
+.about-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.about-me {
+    cursor: pointer;
+    font-style: italic;
+}
+
+.about-me:hover { 
+    color: #0075ff; 
+}
+
+.about-reload {
+    cursor: pointer;
+    text-decoration: underline;
+}

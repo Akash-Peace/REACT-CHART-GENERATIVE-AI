@@ -1,0 +1,54 @@
+.custom-panel-container {
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 8px 6px rgba(0,0,0,0.1);
+}
+
+.custom-panel-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.custom-panel-option {
+    display: block;
+    padding: 10px 5px;
+    cursor: pointer;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.custom-panel-heading {
+    display: flex; 
+    justify-content: space-between;
+    margin: 30px 15px 20px 5px;
+    gap: 10px
+}
+
+.custom-panel-yaxistitle-option {
+    min-width: 0px;
+    padding: 16px 0px;
+    border-color: transparent;
+    background-color: #efefef;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: larger;
+    margin: 0px 0px 160px 5px;
+    width: calc(100% - 17px);
+    float: left;
+}
+
+.custom-panel-text-field {
+    min-width: 0px;
+    border-color: transparent;
+    background-color: #efefef;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: larger;
+}

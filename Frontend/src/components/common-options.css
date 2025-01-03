@@ -1,0 +1,29 @@
+.common-options-container {
+  display: flex;
+  justify-content: center;
+  align-items: end; 
+  gap: 20px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 15px 0px;
+}
+
+.common-options-list {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  justify-content: center
+}
+
+.common-options-label {
+  display: block;
+  margin: 0px 10px 10px 10px;
+  cursor: pointer
+}
+
+.common-options-prompt {
+  text-decoration: underline;
+  cursor: pointer;
+}

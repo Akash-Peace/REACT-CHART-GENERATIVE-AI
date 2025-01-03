@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 2
+}
+
+.app-header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  background-color: #0075ff;
+  color: white
+}
+
+.app-header-content-left {
+  display: flex;
+  align-items: center
+}
+
+.app-header-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px
+}
+
+.app-add-chart-menu {
+  width: 130px;
+  background-color: white;
+  color: black;
+  padding: 10px 5px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  position: absolute
+}
+
+.app-add-chart-menu-item {
+  display: flex;
+  margin: 20px 5px;
+  cursor: pointer;
+}
+
+.app-status {
+  color: gray;
+  margin: 25px 50px
+}
+
+.app-loading-gif {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+}
+
+.app-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-upload-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 40px
+}
+
+.app-upload-error {
+  position: absolute;
+  bottom: 0px;
+  background-color: #FAA0A0;
+  width: 100%;
+  padding: 20px 20px;
+  box-sizing: border-box
+}
+
+/* drag and drop internal class */
+.bnMgxQ {
+  height: 80vh !important;
+  width: 80%;
+  max-width: 100% !important;
+  padding: 0px 40px !important;
+  justify-content: center !important;
+  border-radius: 20px !important;
+  border-color: #0075ff !important;
+  svg {
+    display: none;
+  }
+}
+
+.hXAsBl {
+  justify-content: center !important;
+  flex-grow: 0 !important;
+  display: block !important;
+}
+
+.hXAsBl>span {
+  font-size: 20px !important;
+  color: black !important;
+}
+
+.hXAsBl .file-types {
+  max-width: 150px !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0075ff;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
