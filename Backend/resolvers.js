@@ -74,7 +74,7 @@ const resolvers = {
         }
       }
       try {
-        // to get rid of extra json chars (```json ... ```).
+        // To get rid of extra json chars (```json ... ```).
         result = JSON.parse(result?.response?.text()?.trim()?.slice(7, -3));
       } catch (error) {
         result = JSON.parse(result?.response?.text()?.trim());
