@@ -97,7 +97,6 @@ While generative AI has transformed my approach to media data extraction but Ope
 
 View [Screenshots](https://github.com/Akash-Peace/REACT-CHART-GENERATIVE-AI/tree/main/Screenshots) here.
 
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See [LICENSE](https://github.com/Akash-Peace/REACT-CHART-GENERATIVE-AI/blob/main/LICENSE) for more information.
