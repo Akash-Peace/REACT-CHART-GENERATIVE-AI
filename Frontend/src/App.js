@@ -28,7 +28,7 @@ function App() {
   const addChartButtonRef = useRef(null);
   const lastChartRef = useRef(null);
 
-  const uri = process.env.NODE_ENV === 'production' ? 'https://chart-customizer.herokuapp.com/' : 'http://localhost:5000/';
+  const uri = process.env.NODE_ENV === 'production' ? 'https://image-to-chart-graphql-server.vercel.app/' : 'http://localhost:5000/';
   const client = new ApolloClient({ uri, cache: new InMemoryCache() });
 
   let dataLabelPrefix = '', dataLabelSuffix = '';
