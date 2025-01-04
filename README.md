@@ -87,8 +87,8 @@ Image to Chart is a web application that allows users to upload chart image and 
 
 1.&nbsp;Frontend hosting on Firebase:
 
-  * Deployed the frontend project on firebase.
-  * Since firebase does not natively sync with repositories, I configured github actions for continuous integration and deployment (CI/CD).
+* Deployed the frontend project on firebase.
+* Since firebase does not natively sync with repositories, I configured github actions for continuous integration and deployment (CI/CD).
 * Set up a github actions workflow to build and deploy the frontend project based on updates to the frontend folder.
 * Ensured that only the frontend project is deployed when the frontend folder is modified, while the backend remains unaffected.
 
@@ -96,7 +96,7 @@ Image to Chart is a web application that allows users to upload chart image and 
 
 * Deployed the backend project on vercel.
 * Synced vercel directly with the git repository.
-* Configured vercel deployment rules to target the backend folder within the monorepo.
+* Configured vercel deployment rules through the vercel dashboard to target the backend folder within the monorepo.
 * Established deployment rules such that updates to the backend folder trigger vercel deployments, while github actions remain inactive.
 
 ## Advancements in Multimedia Processing
