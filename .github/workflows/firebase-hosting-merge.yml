@@ -11,10 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm i --legacy-peer-deps --prefix ./Frontend/ && npm run build --prefix ./Frontend/
+      - env:
+          CI: false
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           entrypoint: './Frontend'
-          node-version: '18'
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_IMAGE_TO_CHART }}
           channelId: live
