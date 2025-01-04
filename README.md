@@ -57,10 +57,10 @@ Image to Chart is a web application that allows users to upload chart image and 
 ## Powered By
 
 * [Apollo Client](https://www.apollographql.com/docs/react/)
-* [Lodash](https://lodash.com/)
-* [react-drag-drop-files](https://www.npmjs.com/package/react-drag-drop-files)
 * [Firebase](https://firebase.google.com/docs/hosting)
 * [Vercel](https://vercel.com/)
+* [React drag drop files](https://www.npmjs.com/package/react-drag-drop-files)
+* [Lodash](https://lodash.com/)
 
 ## Frontend Technology
 
