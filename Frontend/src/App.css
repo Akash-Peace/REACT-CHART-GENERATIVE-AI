@@ -61,13 +61,6 @@
   justify-content: center;
 }
 
-.app-upload-container {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin-top: 40px
-}
-
 .app-upload-error {
   position: absolute;
   bottom: 0px;
@@ -77,33 +70,40 @@
   box-sizing: border-box
 }
 
-/* drag and drop internal class */
-.bnMgxQ {
-  height: 80vh !important;
-  width: 80%;
-  max-width: 100% !important;
-  padding: 0px 40px !important;
-  justify-content: center !important;
-  border-radius: 20px !important;
-  border-color: #0075ff !important;
-  svg {
-    display: none;
+.app-upload-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+
+  label {
+    height: 80vh !important;
+    width: 80%;
+    max-width: 100% !important;
+    padding: 0px 40px !important;
+    justify-content: center !important;
+    border-radius: 20px !important;
+    border-color: #0075ff !important;
+
+    svg {
+      display: none;
+    }
+    
+    div {
+      justify-content: center !important;
+      flex-grow: 0 !important;
+      display: block !important;
+    }
+    
+    span {
+      font-size: 20px !important;
+      color: black !important;
+    }
+    
+    span .file-types {
+      max-width: 150px !important;
+    }
   }
-}
-
-.hXAsBl {
-  justify-content: center !important;
-  flex-grow: 0 !important;
-  display: block !important;
-}
-
-.hXAsBl>span {
-  font-size: 20px !important;
-  color: black !important;
-}
-
-.hXAsBl .file-types {
-  max-width: 150px !important;
 }
 
 ::-webkit-scrollbar {
