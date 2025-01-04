@@ -260,7 +260,7 @@ function App() {
         </>
         ) : (
           <>
-            <h2>Switch chart image to custom charts (BETA)</h2>
+            <h2>Convert chart image to custom charts (BETA)</h2>
             <div className='app-upload-container'>
               {onLoading ? <div className='app-loading'><img className='app-loading-gif' src={loadingGif} alt='...' /><h2 className='app-status'>Analyzing the image</h2></div> :
                 <>
