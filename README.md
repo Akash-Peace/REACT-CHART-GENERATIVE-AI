@@ -111,7 +111,6 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Akash-Peace/
 **Ram:** DDR5 16GB\
 **Disk:** NVMe 100GB
 
-<!-- CONTACT -->
 ## Contact
 
 Akash A\
