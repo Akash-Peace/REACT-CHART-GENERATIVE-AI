@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm i --legacy-peer-deps --prefix ./Frontend/ && npm run build --prefix ./Frontend/
-      - env:
+        env:
           CI: false
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
