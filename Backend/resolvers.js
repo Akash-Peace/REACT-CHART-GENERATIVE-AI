@@ -71,7 +71,6 @@ const resolvers = {
         ]);
         if (result?.response?.text()?.trim() === 'invalid') {
           throw new Error('Detected invalid image / unsupported chart / multiple charts. Please try again with a different image which has column, bar or line chart in it.');
-          // return "Detected invalid image / unsupported chart / multiple charts. Please try again with a different image which has column, bar or line chart in it.";
         }
       }
       try {
