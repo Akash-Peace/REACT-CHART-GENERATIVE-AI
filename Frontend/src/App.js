@@ -172,7 +172,7 @@ function App() {
       if (loading) return;
       if (error) {
         setFile(null);
-        setFileError(error?.message || 'Something went wrong');
+        setFileError(error?.message || 'Something went wrong!');
         return;
       }
 
@@ -183,7 +183,7 @@ function App() {
       }
     } catch (error) {
       setFile(null);
-      setFileError(error?.networkError?.result?.errors?.[0]?.message || error?.message || 'Something went wrong');
+      setFileError(error?.networkError?.result?.errors?.[0]?.message || error?.message || 'Something went wrong!');
     }
   };
 
