@@ -5,7 +5,7 @@
     <span><strong>Convert chart image to custom charts (BETA)</strong></span>
     <br />
     <br />
-    <a href="https://chart-to-image.web.app/">View Webapp</a>
+    <a href="https://image-to-chart.web.app/">View Webapp</a>
     ·
     <a href="https://github.com/Akash-Peace/REACT-CHART-GENERATIVE-AI/issues">Report Bug</a>
     ·
@@ -59,6 +59,8 @@ Image to Chart is a web application that allows users to upload chart image and 
 * [Apollo Client](https://www.apollographql.com/docs/react/)
 * [Lodash](https://lodash.com/)
 * [react-drag-drop-files](https://www.npmjs.com/package/react-drag-drop-files)
+* [Firebase](https://firebase.google.com/docs/hosting)
+* [Vercel](https://vercel.com/)
 
 ## Frontend Technology
 
@@ -67,6 +69,7 @@ Image to Chart is a web application that allows users to upload chart image and 
 * Implemented client-side caching to minimize analysis time and computational load, followed LRU mechanisms to manage cache effectively. Additionally, leveraged browser-built-in crypto hashing for optimal data caching.
 * Used Apollo Client to manage GraphQL queries seamlessly.
 * Integrated the react-drag-drop-files library to allow users to upload images and utilized Lodash for deep cloning, preventing unintended data mutations.
+* Deployed and hosted the frontend application on the Firebase hosting platform.
 
 ## Backend Technology
 
@@ -75,6 +78,7 @@ Image to Chart is a web application that allows users to upload chart image and 
 * Performed prompt engineering to achieve accurate results, optimizing and refining prompts to minimize token usage and reduce billable costs in enterprise setups.
 * Seperated system prompts to sequentially process each analysis based on intermediate outputs.
 * Configured CORS to enable secure Cross-Origin Resource Sharing.
+* Deployed and hosted the backend server on Vercel.
 
 ## Advancements in Multimedia Processing
 
