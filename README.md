@@ -23,8 +23,9 @@
     <li><a href="#powered-by">Powered By</a></li>
     <li><a href="#frontend-technology">Frontend Technology</a></li>
     <li><a href="#backend-technology">Backend Technology</a></li>
+    <li><a href="#monorepo-management">Monorepo Management</a></li>
+    <li><a href="#hosting-and-deployments">Hosting and Deployments</a></li>
     <li><a href="#advancements-in-multimedia-processing">Advancements in Multimedia Processing</a></li>
-    <li><a href="#monorepo-&-deployments">Monorepo & Deployments</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#development-environment">Development Environment</a></li>
@@ -68,7 +69,6 @@ Image to Chart is a web application that allows users to upload chart image and 
 * Implemented client-side caching to minimize analysis time and computational load, followed LRU mechanisms to manage cache effectively. Additionally, leveraged browser-built-in crypto hashing for optimal data caching.
 * Used Apollo Client to manage GraphQL queries seamlessly.
 * Integrated the react-drag-drop-files library to allow users to upload images and utilized Lodash for deep cloning, preventing unintended data mutations.
-* Deployed and hosted the frontend application on the Firebase hosting platform.
 
 ## Backend Technology
 
@@ -77,7 +77,27 @@ Image to Chart is a web application that allows users to upload chart image and 
 * Performed prompt engineering to achieve accurate results, optimizing and refining prompts to minimize token usage and reduce billable costs in enterprise setups.
 * Seperated system prompts to sequentially process each analysis based on intermediate outputs.
 * Configured CORS to enable secure Cross-Origin Resource Sharing.
-* Deployed and hosted the backend server on Vercel.
+
+## Monorepo Management
+
+* Both frontend and backend projects reside within the same git repository.
+* Defined folder-specific paths to ensure isolated deployments for the frontend and backend.
+
+## Hosting and Deployments
+
+1.&nbsp;Frontend hosting on Firebase:
+
+  * Deployed the frontend project on firebase.
+  * Since firebase does not natively sync with repositories, I configured github actions for continuous integration and deployment (CI/CD).
+* Set up a github actions workflow to build and deploy the frontend project based on updates to the frontend folder.
+* Ensured that only the frontend project is deployed when the frontend folder is modified, while the backend remains unaffected.
+
+2.&nbsp;Backend hosting on Vercel:
+
+* Deployed the backend project on vercel.
+* Synced vercel directly with the git repository.
+* Configured vercel deployment rules to target the backend folder within the monorepo.
+* Established deployment rules such that updates to the backend folder trigger vercel deployments, while github actions remain inactive.
 
 ## Advancements in Multimedia Processing
 
