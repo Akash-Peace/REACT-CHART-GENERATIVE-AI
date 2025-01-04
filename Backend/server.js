@@ -14,11 +14,11 @@ const port = process.env.PORT;
 const app = express();
 const corsOptions = process.env.NODE_ENV === 'production' ? {
   origin: 'https://image-to-chart.web.app/',
-  methods: ['POST'],
+  methods: ['POST', 'OPTIONS'],
   credentials: true
 } : {
   origin: '*',
-  methods: ['POST'],
+  methods: ['POST', 'OPTIONS'],
   credentials: true
 };
 
