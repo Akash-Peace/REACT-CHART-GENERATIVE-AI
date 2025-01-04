@@ -70,11 +70,11 @@ const resolvers = {
           systemPrompt,
         ]);
         if (result?.response?.text()?.trim() === 'invalid') {
-          throw new Error('Detected invalid image / unsupported chart / multiple charts. Please try again with a different image which has column, bar or line chart in it.');
+          throw new Error('Detected invalid image / unsupported chart / multiple charts. Please try again with a different image which contains column, bar or line chart.');
         }
       }
       try {
-        // To get rid of extra text (```json ... ```).
+        // To get rid of extra text ( ```json ... ``` ).
         result = JSON.parse(result?.response?.text()?.trim()?.slice(7, -3));
       } catch (error) {
         result = JSON.parse(result?.response?.text()?.trim());
