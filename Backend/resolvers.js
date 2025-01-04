@@ -70,7 +70,7 @@ const resolvers = {
           systemPrompt,
         ]);
         if (result?.response?.text()?.trim() === 'invalid') {
-          throw new Error('Detected invalid image / unsupported chart / multiple charts. Please try again with a different image which contains column, bar or line chart.');
+          throw new Error('Detected invalid image / unsupported chart / multiple charts. Please try again with a different image which contains column, bar or line chart in it.');
         }
       }
       try {
