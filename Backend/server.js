@@ -15,7 +15,8 @@ const app = express();
 const corsOptions = process.env.NODE_ENV === 'production' ? {
   origin: 'https://image-to-chart.web.app/',
   methods: ['POST', 'OPTIONS'],
-  credentials: true
+  credentials: true,
+  allowedHeaders: ['Content-Type', 'Authorization']
 } : {
   origin: '*',
   methods: ['POST', 'OPTIONS'],
