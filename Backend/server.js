@@ -13,7 +13,7 @@ dotenv.config();
 const port = process.env.PORT;
 const app = express();
 const corsOptions = process.env.NODE_ENV === 'production' ? {
-  origin: 'https://image-to-chart.web.app/',
+  origin: 'https://image-to-chart-graphql-server.vercel.app/',
   methods: ['POST'],
   credentials: true
 } : {
