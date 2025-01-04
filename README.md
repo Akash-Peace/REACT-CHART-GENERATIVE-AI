@@ -24,6 +24,7 @@
     <li><a href="#frontend-technology">Frontend Technology</a></li>
     <li><a href="#backend-technology">Backend Technology</a></li>
     <li><a href="#advancements-in-multimedia-processing">Advancements in Multimedia Processing</a></li>
+    <li><a href="#monorepo-&-deployments">Monorepo & Deployments</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#development-environment">Development Environment</a></li>
@@ -31,7 +32,6 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 Image to Chart is a web application that allows users to upload chart image and convert them into fully customizable charts. The uploaded image is analyzed using generative AI to extract the underlying data, which is then utilized to recreate the chart. The application currently supports three chart types: Column, Bar, and Line charts. Users can edit the chart's x-axis and legends, as well as further enhance and personalize the chart with a wide range of customization options.
