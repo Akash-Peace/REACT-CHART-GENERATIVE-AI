@@ -126,7 +126,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Akash-Peace/
 **OS:** [Ubuntu](https://ubuntu.com/)\
 **System:** Customized PC\
 **Processor:** Intel i5 13th gen\
-**Ram:** DDR5 16GB\
+**RAM:** DDR5 16GB\
 **Disk:** NVMe 100GB
 
 ## Contact
