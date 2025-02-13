@@ -41,7 +41,7 @@ Image to Chart is a web application that allows users to upload chart image and 
 
 * Customize online chart images: Tailor existing chart images with a wide range of configurable options.
 * Enhance hand-drawn charts: Refine and improve charts captured from photographs or existing images.
-* Generate versatile charts: Convert images into customizable charts and easily capture screenshots for various uses.
+* Generate versatile charts: Convert images into customizable charts and easily capture screenshot for various uses.
 
 ## Built With
 
