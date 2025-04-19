@@ -35,7 +35,7 @@
 
 ## About The Project
 
-Image to Chart is a web application that allows users to upload chart image and convert them into fully customizable charts. The uploaded image is analyzed using generative AI to extract the underlying data, which is then utilized to recreate the chart. The application currently supports three chart types: Column, Bar, and Line charts. Users can edit the chart's x-axis and legends, as well as further enhance and personalize the chart with a wide range of customization options.
+Image to Chart is a web application that allows users to upload chart image and convert them into fully customizable charts. The uploaded image is analyzed using generative AI to extract the underlying data, which is then utilized to recreate the chart. The application currently supports three chart types: Column, Bar, and Line charts. Users can edit the chart's x-axis and legends, as well as further enhance and personalize the chart with a wide range of customization options. [MIT](https://github.com/Akash-Peace/REACT-CHART-GENERATIVE-AI/blob/main/LICENSE) licenses this project. If you find it useful, please consider giving it a _star_ and follow me!
 
 ## Use Cases
 
